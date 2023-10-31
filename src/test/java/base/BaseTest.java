@@ -13,7 +13,6 @@ public class BaseTest {
         Configuration.browserVersion = "118";
         Configuration.pageLoadStrategy = "eager";
         Configuration.timeout = 4000;
-        Configuration.holdBrowserOpen = true;
     }
 
     @AfterEach
